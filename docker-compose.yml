@@ -1,0 +1,37 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: dev-secret-key-not-for-production
+      DEBUG: "True"
+      DATABASE_URL: postgresql://mindtraits_user:mindtraits_pass@db:5432/mindtraits_db
+      FRONTEND_URL: http://localhost:5173
+    depends_on:
+      - db
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"        # nginx serves on 80 inside container
+    depends_on:
+      - backend
+
+  db:
+    image: postgres:16
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: mindtraits_db
+      POSTGRES_USER: mindtraits_user
+      POSTGRES_PASSWORD: mindtraits_pass
+    ports:
+      - "5433:5432"
+
+volumes:
+  postgres_data:

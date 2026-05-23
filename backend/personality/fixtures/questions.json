@@ -1,0 +1,22 @@
+[
+  {"model": "personality.question", "pk": 1,  "fields": {"text": "I feel comfortable around people",       "trait": "E", "order": 1}},
+  {"model": "personality.question", "pk": 2,  "fields": {"text": "I start conversations easily",           "trait": "E", "order": 2}},
+  {"model": "personality.question", "pk": 3,  "fields": {"text": "I enjoy being the center of attention",  "trait": "E", "order": 3}},
+  {"model": "personality.question", "pk": 4,  "fields": {"text": "I talk to many people at social gatherings", "trait": "E", "order": 4}},
+  {"model": "personality.question", "pk": 5,  "fields": {"text": "I sympathize with other people's feelings",  "trait": "A", "order": 5}},
+  {"model": "personality.question", "pk": 6,  "fields": {"text": "I make people feel at ease",             "trait": "A", "order": 6}},
+  {"model": "personality.question", "pk": 7,  "fields": {"text": "I take time to help others",             "trait": "A", "order": 7}},
+  {"model": "personality.question", "pk": 8,  "fields": {"text": "I care about other people's problems",   "trait": "A", "order": 8}},
+  {"model": "personality.question", "pk": 9,  "fields": {"text": "I pay attention to details",             "trait": "C", "order": 9}},
+  {"model": "personality.question", "pk": 10, "fields": {"text": "I follow a schedule",                    "trait": "C", "order": 10}},
+  {"model": "personality.question", "pk": 11, "fields": {"text": "I complete tasks right away",            "trait": "C", "order": 11}},
+  {"model": "personality.question", "pk": 12, "fields": {"text": "I keep things organized",               "trait": "C", "order": 12}},
+  {"model": "personality.question", "pk": 13, "fields": {"text": "I get stressed easily",                 "trait": "N", "order": 13}},
+  {"model": "personality.question", "pk": 14, "fields": {"text": "I worry about many things",             "trait": "N", "order": 14}},
+  {"model": "personality.question", "pk": 15, "fields": {"text": "I often feel nervous",                  "trait": "N", "order": 15}},
+  {"model": "personality.question", "pk": 16, "fields": {"text": "I get upset easily",                    "trait": "N", "order": 16}},
+  {"model": "personality.question", "pk": 17, "fields": {"text": "I have a vivid imagination",            "trait": "O", "order": 17}},
+  {"model": "personality.question", "pk": 18, "fields": {"text": "I enjoy thinking about abstract ideas", "trait": "O", "order": 18}},
+  {"model": "personality.question", "pk": 19, "fields": {"text": "I have many creative ideas",            "trait": "O", "order": 19}},
+  {"model": "personality.question", "pk": 20, "fields": {"text": "I like exploring new concepts",         "trait": "O", "order": 20}}
+]

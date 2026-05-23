@@ -1,0 +1,9 @@
+myenv/
+node_modules/
+.env
+dist/
+build/
+__pycache__/
+*.pyc
+.vscode/
+db.sqlite3
